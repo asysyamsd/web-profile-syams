@@ -28,7 +28,7 @@ body {
     padding-top: 30px;
 }
 .last {
-    color: rgb(255, 102, 0);
+    color: rgb(172, 16, 16);
 }
 .menu{
     width: 50%;
@@ -67,17 +67,18 @@ body {
     color: rgb(255,255, 255);
     letter-spacing: 5px;
     padding-left: 25px;
+    font-style: normal;
 }
 
 .content h2 {
     padding-left: 25px;
     font-size: 35px;
+    font-style: italic;
 }
 
 .content h3 {
     font-size: 11px;
     padding-left: 25px;
-    font-style: italic;
 }
 
 .image img{
@@ -88,8 +89,8 @@ body {
     display: grid;
     display: flex;
     justify-content: space-between;
-    border: 5px solid linear-gradient(to bottom right, hsl(254, 100%, 10%), rgb(88, 0, 63));;
-    background: linear-gradient(to bottom right, hsl(19, 98%, 20%), rgb(88, 0, 54));;
+    border: 5px solid linear-gradient(to bottom right, hsl(239, 90%, 16%), rgb(94, 4, 4));;
+    background: linear-gradient(to bottom right, hsl(244, 86%, 31%), rgb(143, 7, 7));;
     padding: 10px;
     margin: 5px solid;
     width: auto;
@@ -101,7 +102,7 @@ body {
     width: 48%;
     height: 400px;
     margin-top: 50px;
-    background: linear-gradient(to bottom right, hsl(24, 97%, 15%), rgb(88, 0, 34));;
+    background: linear-gradient(to bottom right, hsl(241, 95%, 15%), rgb(109, 3, 11));;
     box-shadow: inset 5px 5px 12px rgb(0,0,0,0.16), 5px 5px 12px rgb(26, 1, 29);
     
 }
@@ -190,7 +191,7 @@ body {
 }
 
 .card-galery {
-    background: linear-gradient(to bottom right, hsl(24, 97%, 15%), rgb(88, 0, 54));;
+    background: linear-gradient(to bottom right, hsl(256, 93%, 16%), rgb(102, 3, 3));;
     padding: 20px 0px;
     width: 100%;
     height: 350px;
@@ -216,7 +217,7 @@ body {
     border-radius: 5px;
     width: 170px;
     height: 150px;
-    box-shadow: inset 5px 5px 12px rgb(0,0,0,0.16), 5px 5px 12px rgb(148, 121, 2);
+    box-shadow: inset 5px 5px 12px rgba(8, 2, 82, 0.16), 5px 5px 12px rgb(121, 3, 3);
 }
 
 .ph-galery {
@@ -226,7 +227,7 @@ body {
 }
 
 .card-service {
-    background: linear-gradient(to bottom right, hsl(24, 97%, 15%), rgb(88, 0, 54));;
+    background: linear-gradient(to bottom right, hsl(251, 91%, 13%), rgb(85, 3, 3));;
     padding: 20px 0px;
     width: 100%;
     height: 450px;
@@ -250,7 +251,7 @@ body {
     width: 250px;
     height: 280px;
     background: linear-gradient(to bottom right, hsl(22, 87%, 27%), rgb(145, 25, 129));;
-    box-shadow: inset 5px 5px 12px rgb(0,0,0,0.16), 5px 5px 12px rgb(148, 121, 2);
+    box-shadow: inset 5px 5px 12px rgba(26, 5, 75, 0.16), 5px 5px 12px rgb(107, 91, 201);
 }
 
 .list-servic p{
@@ -283,7 +284,7 @@ body {
 }
 
 footer {
-    background: linear-gradient(to bottom right, hsl(27, 87%, 27%), rgb(145, 25, 41));;
+    background: linear-gradient(to bottom right, hsl(234, 87%, 27%), rgb(105, 0, 14));;
     height: auto;
     width: 100%;
     padding-top: 40px;
